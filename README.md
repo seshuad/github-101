@@ -69,5 +69,13 @@ $ ls
 </code>
 </pre>
 9. Your local repository is now syncrhronized with the remote copy on github.com. There can be conflicts during the pull if you happen to change a file on the local repo and the same file was modified on the remote as well. If there are conflicts that cannot be automerged git creates a version of the file that needs to be modified to resolve conflicts 
-
+<pre>
+<code>
+$ git pull
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+$ 
+</code>
+</pre>
 
