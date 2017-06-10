@@ -39,3 +39,16 @@ $
 </code>
 </pre>
 7. The repository with the code is now on your local laptop and needs to be pushed to the remote repository on github.com. 
+<pre>
+<code>
+$ git push origin master
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 736 bytes | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/seshuad/github-101.git
+   108f1b8..44c8c9d  master -> master
+$ 
+</code>
+</pre>
