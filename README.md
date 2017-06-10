@@ -1,1 +1,1 @@
-# github-101
+# Tutorial for learning how to use github. 
