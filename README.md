@@ -52,3 +52,20 @@ To https://github.com/seshuad/github-101.git
 $ 
 </code>
 </pre>
+8. Now we will learn how to collaborate with others and allow multiple people to make changes to this repo. If your team member makes changes to the source and pushes these changes to github now you need to pull these changes onto your local repository. 
+<pre>
+<code>
+$ git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+Unpacking objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+From https://github.com/seshuad/github-101
+   44185e6..108f1b8  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ README.md | 42 +++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 41 insertions(+), 1 deletion(-)
+$ ls
+</code>
+</pre>
+9. Your local repository is now syncrhronized with the remote copy on github.com. There can be conflicts during the pull if you happen to change a file on the local repo and the same file was modified on the remote as well. 
